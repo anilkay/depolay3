@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="makewar">
+    <output-path>$PROJECT_DIR$/out/artifacts/makewar</output-path>
+    <root id="archive" name="makewar.war">
+      <element id="javaee-facet-resources" facet="depolay/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="depolay" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Mojarra-2.2.1" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
